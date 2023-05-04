@@ -8,20 +8,21 @@
 /* STYLE FOR NAV */
 /* ------------- */
 nav {
-  background-color: #020202;
+  width: 100%;
+  height: 100px;
+  background-color: #727272;
   display : flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
 }
 
 nav ul {
   display: flex;
-
+  font-size: 30px;
+  padding-right: 50px;
 }
 
 nav a {
-  font-size: 25px;
   color: white;
   padding: 20px;
   font-weight: bold;
@@ -29,23 +30,48 @@ nav a {
 
 nav a:hover {
   background-color: white;
-  color: #333;
-  
+  color: #000000;
 }
 
 .logo {
-  font-size: 60px;
-  color: rgb(54, 85, 112);
-  padding-left: 15px;
-  font-family:fantasy;
+  padding-left: 50px;
+  font-size: 80px;
+  color: rgba(28, 57, 83, 0.842);
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-/* STYLE FOR MAIN IMAGE */
-/* -------------------- */
-img {
-  margin: 0px;
-  width: 100%;
+.abousUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
 }
+
+.abousUs figure {
+  flex: 1;
+  margin-right: 60px;
+}
+
+.abousUs article {
+  flex: 2;
+}
+
+/* figure{
+
+text-align: center;
+padding: 60px 20px 30px 40px;
+float: left;
+} 
+
+img#groupPhoto{
+ width: 90%;
+ box-shadow: 4px 4px 5px orange;
+} 
+
+article{
+float:left
+} */
 
 /* styles for small screens */
 @media only screen and (max-width: 600px) {

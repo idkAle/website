@@ -1,0 +1,21 @@
+#members {
+  display: flex;
+  justify-content: center;
+}
+
+#members div {
+  width: 30%;
+  margin: 1px;
+  text-align: center;
+}
+
+#members img {
+  width: 80%;
+
+}
+
+#members p {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  font-weight: bold;
+}

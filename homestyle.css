@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* STYLE FOR NAV */
+/* ------------- */
+nav {
+  background-color: #020202;
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav a {
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #333;
+  
+}
+
+.logo {
+  font-size: 60px;
+  color: rgb(54, 85, 112);
+  padding-left: 15px;
+  font-family:fantasy;
+}
+
+/* STYLE FOR MAIN IMAGE */
+/* -------------------- */
+img {
+  margin: 0px;
+  width: 100%;
+}

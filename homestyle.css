@@ -8,6 +8,7 @@
 /* STYLE FOR NAV */
 /* ------------- */
 nav {
+  outline: red dashed 1px;
   width: 100%;
   height: 100px;
   background-color: #565555;
@@ -17,12 +18,14 @@ nav {
 }
 
 nav ul {
+  outline: red dashed 1px;
   display: flex;
   font-size: 30px;
   padding-right: 50px;
 }
 
 nav a {
+  outline: rgb(60, 0, 255) dashed 1px;
   color: white;
   padding: 20px;
   font-weight: bold;
@@ -34,7 +37,8 @@ nav a:hover {
 }
 
 .logo {
-  padding-left: 50px;
+  outline: red dashed 1px;
+  margin-left: 50px;
   font-size: 80px;
   color: rgba(28, 57, 83, 0.842);
   font-weight: bold;
@@ -43,32 +47,39 @@ nav a:hover {
 
 /* STYLE FOR MAIN IMAGE */
 /* -------------------- */
-img{
+img#background{
+  outline: red dashed 1px;
   width: 100%;
-}
-
-aside {
-  width: 33%;
-  float: left;
-  padding: 10px;
 }
 
 img#groupPhoto {
-  display: block;
-  width: 100%;
-  margin: 10px 10px 10px 0px;
-
+  float: left;
+  margin: 100px 10px 10px 50px;
+  outline: green dashed 3px;
+  width: 40%;
 }
 
 article {
-  background-color: ivory;
-  line-height: 1.5em;
-  margin-left: 35%;
-  padding: 1em; 
-  border: solid thin green;
+
+margin: 50px;
 }
-/* styles for small screens */
-@media only screen and (max-width: 600px) {
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+p{
+
+  line-height: 2.0;
+  font-size: 20px;
+}
+
+footer{
+  background-color: #333;
+  height: 50px;
+}
+/* @media only screen and (max-width: 600px) {
   nav {
     height: auto;
   }
@@ -116,4 +127,4 @@ article {
     max-width: 100%;
     transform: none;
   }
-}
+} */
